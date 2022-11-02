@@ -11,11 +11,9 @@ copyright = '2022, Marco Stenta'
 author = 'Marco Stenta'
 
 
-import mpskit
-
-version = mpskit.__version__
+version = '0.3.1'
 # The full version, including dev info
-release = mpskit.__version__.replace("_", "")
+release = version.replace("_", "")
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
