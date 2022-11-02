@@ -1,8 +1,8 @@
-import pymps
+import mpskit
 
 
 def test_version():
-    version = pymps.__version__
+    version = mpskit.__version__
     print(version)
     assert version is not None
 

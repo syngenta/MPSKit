@@ -22,6 +22,7 @@ classifiers = [
 keywords = ["reaction", "chemoinformatics", "multi-parameter scoring"]
 requires-python = ">=3.9"
 dependencies = [
+    "numpy"
         ]
 # TODO: newer versions of joblib create problems with hdbscan https://github.com/scikit-learn-contrib/hdbscan/issues/565
 

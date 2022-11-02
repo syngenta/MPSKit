@@ -1,4 +1,4 @@
-### python Generic MultiParameter Scoring (pyGMPS) 
+### MultiParameter Scoring toolKit (MPSKit) 
 the code implements methods for multiparameter scoring
 
 
