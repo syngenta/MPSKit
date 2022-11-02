@@ -1,0 +1,51 @@
+[build-system]
+requires      = [
+        "setuptools>=61.0.0",
+        "wheel",
+        ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MPSKit"
+version = "0.1.0"
+description = "Toolkit to create and visualize multi parameter scoring profiles"
+license = { file = "LICENSE" }
+
+authors = [{ name = "Marco Stenta", email = "marco.stenta@syngenta.com" }]
+readme = "README.md"
+
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["reaction", "chemoinformatics", "multi-parameter scoring"]
+requires-python = ">=3.9"
+dependencies = [
+        ]
+# TODO: newer versions of joblib create problems with hdbscan https://github.com/scikit-learn-contrib/hdbscan/issues/565
+
+[project.optional-dependencies]
+development = [
+        "bumpver",
+        "pytest-cov",
+        "pytest",
+        "sphinx"
+        ]
+
+[project.urls]
+homepage = "https://github.com/syngenta/mpskit"
+repository = "https://github.com/syngenta/mpskit"
+
+[tool.bumpver]
+current_version = "0.1.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "Bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+
+
