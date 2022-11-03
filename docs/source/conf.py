@@ -10,8 +10,7 @@ project = 'MPSKit'
 copyright = '2022, Marco Stenta'
 author = 'Marco Stenta'
 
-
-version = '0.3.1'
+version = "0.4.1"
 # The full version, including dev info
 release = version.replace("_", "")
 
