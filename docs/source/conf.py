@@ -13,13 +13,12 @@ author = 'Marco Stenta'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 modindex_common_prefix = ["mpskit."]
-extensions = []
 
 extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.autosummary',
               'sphinx.ext.viewcode']
 
-version = "0.4.3"
+version = "0.4.4"
 # The full version, including dev info
 release = version.replace("_", "")
 
