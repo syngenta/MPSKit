@@ -18,7 +18,7 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.autosummary',
               'sphinx.ext.viewcode']
 
-version = "0.4.4"
+version = "0.4.5"
 # The full version, including dev info
 release = version.replace("_", "")
 
@@ -26,5 +26,5 @@ release = version.replace("_", "")
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'bizstyle'
-html_static_path = ['../static']
-html_logo = "../static/mpskit_logo.png"
+html_static_path = ['_static']
+html_logo = "_static/mpskit_logo.png"
