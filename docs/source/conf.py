@@ -19,7 +19,7 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.autosummary',
               'sphinx.ext.viewcode']
 
-version = "0.4.1"
+version = "0.4.2"
 # The full version, including dev info
 release = version.replace("_", "")
 
